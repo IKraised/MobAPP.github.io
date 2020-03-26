@@ -1,0 +1,25 @@
+.screenshot{
+    min-width: 1080px;
+    background-color: #2abf5e;
+    padding-top: 60px;
+}
+.screenshot__title{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.screenshot__slider{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.screenshot__slider_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    
+}

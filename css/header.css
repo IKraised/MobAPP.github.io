@@ -1,0 +1,30 @@
+.header{
+    background-color: #2abf5e;
+    min-width: 1080px;
+}
+.header__nav{
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 128px;
+    background-color: #2abf5e;
+}
+.header__nav_list{
+    display: flex;
+    justify-content: space-around;
+}
+.header__nav_list-link{
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 0.3s ease-in;
+}
+.header__nav_list-link:first-child{
+    padding-left: 0;
+}
+.header__nav_list-link:hover{
+    color: black;
+}

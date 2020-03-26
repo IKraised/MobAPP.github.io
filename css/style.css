@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
+@import url('./normalize.css');
+@import url('./header.css');
+@import url('./preview.css');
+@import url('./about.css');
+@import url('./features.css');
+@import url('./reviews.css');
+@import url('./screenshot.css');
+@import url('./demo.css');
+@import url('./download.css');
+@import url('./contact.css');
+
+.container{
+    width: 980px;
+    margin: 0 auto;
+}

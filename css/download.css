@@ -1,0 +1,65 @@
+.download{
+    min-width: 1080px;
+    border-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.download-box{
+    background-image: url('../images/slicedsmart.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.download__free{
+    width: 340px;
+    padding-bottom: 700px;
+}
+.download__free_title,
+.download__buy_title{
+    color: #2abf5e;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.download__free_text,
+.download__buy_text{
+    padding-bottom: 70px;
+    color: #888888;
+    font-size: 32px;
+    width: 340px;
+}
+.download__free_btn,
+.download__buy_btn{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 18px;
+    color: white;
+}
+.download__free_btn-link,
+.download__buy_btn-link{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 70px;
+    background-color: #2abf5e;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all .7s ease-in-out;
+}
+.download__free_btn-link:hover,
+.download__buy_btn-link:hover{
+    color: #2abf5e;
+    background-color: white;
+}
+.download__buy{
+    padding-top: 600px;
+    width: 340px;
+}
